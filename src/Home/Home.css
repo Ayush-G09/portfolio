@@ -1,0 +1,46 @@
+.blob{
+    width: 350px;
+    height: 350px;
+    box-shadow: 0 20px 5px 5px rgba(0, 0, 0, 0.2);   
+    animation: animate 5s ease-in-out infinite;
+    transition: all 1s ease-in-out;
+    background: url('../assets/my.jpg');
+    background-size: cover;
+    background-position: center center;
+}
+
+.nextjs{
+    width: 25px;
+    height: 25px;
+    background: url('../assets/nextjs.png');
+    background-size: cover;
+    background-position: center center;
+}
+
+.redux{
+    width: 25px;
+    height: 25px;
+    background: url('../assets/redux.png');
+    background-size: cover;
+    background-position: center center;
+}
+
+.tailwind{
+    width: 25px;
+    height: 25px;
+    background: url('../assets/tailwind.png');
+    background-size: cover;
+    background-position: center center;
+}
+
+@keyframes animate {
+    0%{
+        border-radius:  60% 40% 30% 70%/60% 30% 70% 40%;
+    }
+    50%{
+        border-radius:  30% 60% 70% 40%/50% 60% 30% 60%;
+    }
+    100%{
+        border-radius:  60% 40% 30% 70%/60% 30% 70% 40%;
+    }
+}
